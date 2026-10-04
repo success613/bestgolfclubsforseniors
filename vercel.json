@@ -76,12 +76,12 @@
     },
     {
       "source": "/go/g440-max-fw-hl",
-      "destination": "https://www.amazon.com/s?k=PING+G440+Max+Fairway+Wood+(HL+build)&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=PING+G440+Max+Fairway+Wood+HL+build&tag=bestgolfsenior-20",
       "permanent": false
     },
     {
       "source": "/go/g440-max-fw-hl/",
-      "destination": "https://www.amazon.com/s?k=PING+G440+Max+Fairway+Wood+(HL+build)&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=PING+G440+Max+Fairway+Wood+HL+build&tag=bestgolfsenior-20",
       "permanent": false
     },
     {
@@ -106,12 +106,12 @@
     },
     {
       "source": "/go/g440-hybrid-hl",
-      "destination": "https://www.amazon.com/s?k=PING+G440+Hybrid+(HL+build)&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=PING+G440+Hybrid+HL+build&tag=bestgolfsenior-20",
       "permanent": false
     },
     {
       "source": "/go/g440-hybrid-hl/",
-      "destination": "https://www.amazon.com/s?k=PING+G440+Hybrid+(HL+build)&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=PING+G440+Hybrid+HL+build&tag=bestgolfsenior-20",
       "permanent": false
     },
     {
@@ -266,12 +266,12 @@
     },
     {
       "source": "/go/ping-g-le4-driver",
-      "destination": "https://www.amazon.com/s?k=PING+G+Le4+Driver+(women's)&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=PING+G+Le4+Driver+womens&tag=bestgolfsenior-20",
       "permanent": false
     },
     {
       "source": "/go/ping-g-le4-driver/",
-      "destination": "https://www.amazon.com/s?k=PING+G+Le4+Driver+(women's)&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=PING+G+Le4+Driver+womens&tag=bestgolfsenior-20",
       "permanent": false
     },
     {
@@ -286,32 +286,32 @@
     },
     {
       "source": "/go/optm-max-d-women",
-      "destination": "https://www.amazon.com/s?k=Cobra+Women's+OPTM+Max-D+Driver&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=Cobra+Womens+OPTM+Max-D+Driver&tag=bestgolfsenior-20",
       "permanent": false
     },
     {
       "source": "/go/optm-max-d-women/",
-      "destination": "https://www.amazon.com/s?k=Cobra+Women's+OPTM+Max-D+Driver&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=Cobra+Womens+OPTM+Max-D+Driver&tag=bestgolfsenior-20",
       "permanent": false
     },
     {
       "source": "/go/kalea-gold",
-      "destination": "https://www.amazon.com/s?k=TaylorMade+Kalea+Gold+Women's+Set&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Kalea+Gold+Womens+Set&tag=bestgolfsenior-20",
       "permanent": false
     },
     {
       "source": "/go/kalea-gold/",
-      "destination": "https://www.amazon.com/s?k=TaylorMade+Kalea+Gold+Women's+Set&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Kalea+Gold+Womens+Set&tag=bestgolfsenior-20",
       "permanent": false
     },
     {
       "source": "/go/callaway-reva",
-      "destination": "https://www.amazon.com/s?k=Callaway+REVA+Women's+Set+(11-piece)&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=Callaway+REVA+Womens+Set+11-piece&tag=bestgolfsenior-20",
       "permanent": false
     },
     {
       "source": "/go/callaway-reva/",
-      "destination": "https://www.amazon.com/s?k=Callaway+REVA+Women's+Set+(11-piece)&tag=bestgolfsenior-20",
+      "destination": "https://www.amazon.com/s?k=Callaway+REVA+Womens+Set+11-piece&tag=bestgolfsenior-20",
       "permanent": false
     },
     {

@@ -4,7 +4,7 @@
 // (Associates policy). Links go to an Amazon search so shoppers see current sellers and prices.
 export const CHECKED = "October 2026";
 export const TAG = "bestgolfsenior-20";
-const search = (q) => `https://www.amazon.com/s?k=${encodeURIComponent(q).replace(/%20/g, "+")}&tag=${TAG}`;
+const search = (q) => `https://www.amazon.com/s?k=${encodeURIComponent(q.replace(/[()']/g, "").replace(/\s+/g, " ").trim()).replace(/%20/g, "+")}&tag=${TAG}`;
 const P = (o) => ({ merchant: "Amazon", amazon: true, url: search(o.q || o.name), go: o.id, ...o });
 
 const list = [
