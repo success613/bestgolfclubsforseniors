@@ -21,11 +21,11 @@ const tags = [
   ["set", "/best-golf-club-sets-for-seniors/"], ["shaft|flex|graphite", "/senior-flex-vs-regular-flex/"], ["women", "/best-golf-clubs-for-senior-women/"],
 ];
 export const legacy = [
-  ...Object.entries(map).map(([slug, dest]) => ({ source: `/${slug}/:path*`, destination: dest, permanent: true })),
+  ...Object.entries(map).map(([slug, dest]) => ({ source: `/${slug}/:rest(.*)`, destination: dest, permanent: true })),
   // The old putters post has the same address as our new guide; only its sub-pages (amp, feed, images) redirect.
-  { source: "/best-putters-for-seniors/:path+", destination: "/best-putters-for-seniors/", permanent: true },
+  { source: "/best-putters-for-seniors/:rest(.+)", destination: "/best-putters-for-seniors/", permanent: true },
   ...tags.map(([re, dest]) => ({ source: `/tag/:t(.*(?:${re}).*)`, destination: dest, permanent: true })),
-  { source: "/tag/:path*", destination: "/", permanent: true },
-  { source: "/feed/:path*", destination: "/", permanent: true },
-  { source: "/comments/feed/:path*", destination: "/", permanent: true },
+  { source: "/tag/:rest(.*)", destination: "/", permanent: true },
+  { source: "/feed/:rest(.*)", destination: "/", permanent: true },
+  { source: "/comments/feed/:rest(.*)", destination: "/", permanent: true },
 ];
