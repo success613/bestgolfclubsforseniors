@@ -8,7 +8,7 @@ import { illus } from "./src/illus.mjs";
 
 const SITE = "https://bestgolfclubsforseniors.com";
 const NAME = "Best Golf Clubs for Seniors";
-const GA_ID = process.env.GA_ID ?? "";
+const GA_ID = process.env.GA_ID ?? "G-PCQ82K5SEE";
 const EMAIL = "hello@bestgolfclubsforseniors.com";
 const AUTHOR = "Alejandro";
 const OUT = "site";
