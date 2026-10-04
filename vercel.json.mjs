@@ -1,5 +1,6 @@
 import { writeFileSync } from "node:fs";
 import { redirects } from "./src/products.mjs";
+import { legacy } from "./src/legacy.mjs";
 const cfg = {
   buildCommand: "node build.mjs",
   outputDirectory: "site",
@@ -8,7 +9,7 @@ const cfg = {
   redirects: [
     { source: "/:path((?!.*\\.).*[^/])", destination: "/:path/", permanent: true },
     ...redirects,
-  ].slice(1),
+  ].slice(1).concat(legacy),
   headers: [
     { source: "/go/(.*)", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] },
     { source: "/assets/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] },

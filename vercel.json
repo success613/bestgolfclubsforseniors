@@ -373,6 +373,241 @@
       "source": "/go/titleist-trufeel/",
       "destination": "https://www.amazon.com/s?k=Titleist+TruFeel+Golf+Balls&tag=bestgolfsenior-20",
       "permanent": false
+    },
+    {
+      "source": "/2017/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/2018/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/best-golf-clubs-for-seniors/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/best-golf-clubs-for-seniors-looking-improve/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/best-golf-clubs-for-seniors-play-better/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/best-rated-senior-golf-clubs/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/best-golf-clubs-for-senior-men/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/adams-golf-clubs-seniors/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/callaway-golf-clubs-for-seniors/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/cobra-golf-clubs-seniors/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ping-golf-clubs-for-seniors/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/taylormade-golf-clubs-for-seniors/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/titleist-golf-clubs-for-seniors/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wilson-golf-clubs-seniors/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/majek-golf-clubs-for-seniors/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/best-golf-driver-seniors/:path*",
+      "destination": "/best-drivers-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/best-golf-drivers-for-seniors/:path*",
+      "destination": "/best-drivers-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-the-best-golf-driver-for-seniors/:path*",
+      "destination": "/best-drivers-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/best-golf-irons/:path*",
+      "destination": "/best-irons-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/best-golf-irons-for-seniors-2018/:path*",
+      "destination": "/best-irons-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/senior-flex-golf-club-shafts/:path*",
+      "destination": "/senior-flex-vs-regular-flex/",
+      "permanent": true
+    },
+    {
+      "source": "/best-golf-club-grips-equipment-shafts/:path*",
+      "destination": "/senior-flex-vs-regular-flex/",
+      "permanent": true
+    },
+    {
+      "source": "/senior-golf-club-sets-best-finds/:path*",
+      "destination": "/best-golf-club-sets-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/discount-golf-clubs-seniors/:path*",
+      "destination": "/best-golf-club-sets-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/senior-golf-clubs-what-to-look-for-in-a-hosel-and-clubhead/:path*",
+      "destination": "/club-finder/",
+      "permanent": true
+    },
+    {
+      "source": "/hosel-golf-clubs-head-covers/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-clean-your-golf-clubs/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/everything-you-wanted-to-know-about-golf/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/golf-tips/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/buying-guides/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/club-reviews/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/author/:path*",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/page/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about-me/:path*",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-me/:path*",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/:path*",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/best-putters-for-seniors/:path+",
+      "destination": "/best-putters-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:t(.*(?:driver|wood).*)",
+      "destination": "/best-drivers-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:t(.*(?:iron).*)",
+      "destination": "/best-irons-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:t(.*(?:putter).*)",
+      "destination": "/best-putters-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:t(.*(?:set).*)",
+      "destination": "/best-golf-club-sets-for-seniors/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:t(.*(?:shaft|flex|graphite).*)",
+      "destination": "/senior-flex-vs-regular-flex/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:t(.*(?:women).*)",
+      "destination": "/best-golf-clubs-for-senior-women/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/feed/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/comments/feed/:path*",
+      "destination": "/",
+      "permanent": true
     }
   ],
   "headers": [
