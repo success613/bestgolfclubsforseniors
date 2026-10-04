@@ -1,0 +1,415 @@
+{
+  "buildCommand": "node build.mjs",
+  "outputDirectory": "site",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/go/qi4d-max-lite",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Qi4D+Max+Lite+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/qi4d-max-lite/",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Qi4D+Max+Lite+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/optm-max-d",
+      "destination": "https://www.amazon.com/s?k=Cobra+OPTM+Max-D+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/optm-max-d/",
+      "destination": "https://www.amazon.com/s?k=Cobra+OPTM+Max-D+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/g440-sft-hl",
+      "destination": "https://www.amazon.com/s?k=PING+G440+SFT+HL+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/g440-sft-hl/",
+      "destination": "https://www.amazon.com/s?k=PING+G440+SFT+HL+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/xxio-14",
+      "destination": "https://www.amazon.com/s?k=XXIO+14+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/xxio-14/",
+      "destination": "https://www.amazon.com/s?k=XXIO+14+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/quantum-max-fast",
+      "destination": "https://www.amazon.com/s?k=Callaway+Quantum+Max+Fast+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/quantum-max-fast/",
+      "destination": "https://www.amazon.com/s?k=Callaway+Quantum+Max+Fast+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/exotics-lite",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Exotics+Lite+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/exotics-lite/",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Exotics+Lite+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/hot-launch-max-d",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Hot+Launch+Max+D+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/hot-launch-max-d/",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Hot+Launch+Max+D+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/g440-max-fw-hl",
+      "destination": "https://www.amazon.com/s?k=PING+G440+Max+Fairway+Wood+(HL+build)&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/g440-max-fw-hl/",
+      "destination": "https://www.amazon.com/s?k=PING+G440+Max+Fairway+Wood+(HL+build)&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/qi4d-max-lite-fw",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Qi4D+Max+Lite+Fairway+Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/qi4d-max-lite-fw/",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Qi4D+Max+Lite+Fairway+Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/hot-launch-max-d-fw",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Hot+Launch+Max+D+Fairway+Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/hot-launch-max-d-fw/",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Hot+Launch+Max+D+Fairway+Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/g440-hybrid-hl",
+      "destination": "https://www.amazon.com/s?k=PING+G440+Hybrid+(HL+build)&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/g440-hybrid-hl/",
+      "destination": "https://www.amazon.com/s?k=PING+G440+Hybrid+(HL+build)&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/qi4d-max-lite-rescue",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Qi4D+Max+Lite+Rescue&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/qi4d-max-lite-rescue/",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Qi4D+Max+Lite+Rescue&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/halo-xl-hywood",
+      "destination": "https://www.amazon.com/s?k=Cleveland+Halo+XL+Hy-Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/halo-xl-hywood/",
+      "destination": "https://www.amazon.com/s?k=Cleveland+Halo+XL+Hy-Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/hot-launch-max-d-hybrid",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Hot+Launch+Max+D+Hybrid&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/hot-launch-max-d-hybrid/",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Hot+Launch+Max+D+Hybrid&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/qi-max-hl-irons",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Qi+Max+HL+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/qi-max-hl-irons/",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Qi+Max+HL+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/halo-xl-full-face",
+      "destination": "https://www.amazon.com/s?k=Cleveland+Halo+XL+Full-Face+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/halo-xl-full-face/",
+      "destination": "https://www.amazon.com/s?k=Cleveland+Halo+XL+Full-Face+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/hot-launch-max-d-irons",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Hot+Launch+Max+D+Iron-Woods&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/hot-launch-max-d-irons/",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Hot+Launch+Max+D+Iron-Woods&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/quantum-max-fast-irons",
+      "destination": "https://www.amazon.com/s?k=Callaway+Quantum+Max+Fast+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/quantum-max-fast-irons/",
+      "destination": "https://www.amazon.com/s?k=Callaway+Quantum+Max+Fast+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/g740-irons",
+      "destination": "https://www.amazon.com/s?k=PING+G740+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/g740-irons/",
+      "destination": "https://www.amazon.com/s?k=PING+G740+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/xxio-14-irons",
+      "destination": "https://www.amazon.com/s?k=XXIO+14+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/xxio-14-irons/",
+      "destination": "https://www.amazon.com/s?k=XXIO+14+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/smart-sole-ff",
+      "destination": "https://www.amazon.com/s?k=Cleveland+Smart+Sole+Full-Face+Wedge&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/smart-sole-ff/",
+      "destination": "https://www.amazon.com/s?k=Cleveland+Smart+Sole+Full-Face+Wedge&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/cleveland-cbz",
+      "destination": "https://www.amazon.com/s?k=Cleveland+CBZ+Wedge&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/cleveland-cbz/",
+      "destination": "https://www.amazon.com/s?k=Cleveland+CBZ+Wedge&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/wilson-profile-senior",
+      "destination": "https://www.amazon.com/s?k=Wilson+Profile+senior+complete+golf+set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/wilson-profile-senior/",
+      "destination": "https://www.amazon.com/s?k=Wilson+Profile+senior+complete+golf+set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/tour-edge-te200",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Senior+TE-200+Complete+Set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/tour-edge-te200/",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Senior+TE-200+Complete+Set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/cobra-fly-xl",
+      "destination": "https://www.amazon.com/s?k=Cobra+Fly-XL+Complete+Set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/cobra-fly-xl/",
+      "destination": "https://www.amazon.com/s?k=Cobra+Fly-XL+Complete+Set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/strata-ultimate",
+      "destination": "https://www.amazon.com/s?k=Callaway+Strata+Ultimate+16-Piece+Set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/strata-ultimate/",
+      "destination": "https://www.amazon.com/s?k=Callaway+Strata+Ultimate+16-Piece+Set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/ping-g-le4-driver",
+      "destination": "https://www.amazon.com/s?k=PING+G+Le4+Driver+(women's)&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/ping-g-le4-driver/",
+      "destination": "https://www.amazon.com/s?k=PING+G+Le4+Driver+(women's)&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/xxio-14-ladies",
+      "destination": "https://www.amazon.com/s?k=XXIO+14+Ladies+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/xxio-14-ladies/",
+      "destination": "https://www.amazon.com/s?k=XXIO+14+Ladies+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/optm-max-d-women",
+      "destination": "https://www.amazon.com/s?k=Cobra+Women's+OPTM+Max-D+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/optm-max-d-women/",
+      "destination": "https://www.amazon.com/s?k=Cobra+Women's+OPTM+Max-D+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/kalea-gold",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Kalea+Gold+Women's+Set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/kalea-gold/",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Kalea+Gold+Women's+Set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/callaway-reva",
+      "destination": "https://www.amazon.com/s?k=Callaway+REVA+Women's+Set+(11-piece)&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/callaway-reva/",
+      "destination": "https://www.amazon.com/s?k=Callaway+REVA+Women's+Set+(11-piece)&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/hb-soft-2-retreve",
+      "destination": "https://www.amazon.com/s?k=Cleveland+HB+Soft+2+Retreve+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/hb-soft-2-retreve/",
+      "destination": "https://www.amazon.com/s?k=Cleveland+HB+Soft+2+Retreve+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/spider-zt-max-cb",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Spider+ZT+Max+Counterbalance+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/spider-zt-max-cb/",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Spider+ZT+Max+Counterbalance+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/e6-soft",
+      "destination": "https://www.amazon.com/s?k=Bridgestone+e6+Soft+Golf+Balls&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/e6-soft/",
+      "destination": "https://www.amazon.com/s?k=Bridgestone+e6+Soft+Golf+Balls&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/srixon-soft-feel",
+      "destination": "https://www.amazon.com/s?k=Srixon+Soft+Feel+Golf+Balls&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/srixon-soft-feel/",
+      "destination": "https://www.amazon.com/s?k=Srixon+Soft+Feel+Golf+Balls&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/callaway-supersoft",
+      "destination": "https://www.amazon.com/s?k=Callaway+Supersoft+Golf+Balls&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/callaway-supersoft/",
+      "destination": "https://www.amazon.com/s?k=Callaway+Supersoft+Golf+Balls&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/titleist-trufeel",
+      "destination": "https://www.amazon.com/s?k=Titleist+TruFeel+Golf+Balls&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/titleist-trufeel/",
+      "destination": "https://www.amazon.com/s?k=Titleist+TruFeel+Golf+Balls&tag=bestgolfsenior-20",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/go/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    }
+  ]
+}
