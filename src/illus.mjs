@@ -1,3 +1,5 @@
+import { art as artA } from "./products-posts-a.mjs";
+import { art as artB } from "./products-posts-b.mjs";
 // Flat illustrations by club type. Every product card shows the drawing for its type
 // (driver, fairway wood, hybrid, iron, hybrid-iron, wedge, set, putter, ball) and is labeled
 // "Illustration": these show the kind of club, not the exact model's paint job.
@@ -28,4 +30,5 @@ const ART = {
 <circle cx="72" cy="112" r="12" fill="#FFFFFF" stroke="#B9C0C6" stroke-width="2"/><circle cx="104" cy="112" r="12" fill="#FFFFFF" stroke="#B9C0C6" stroke-width="2"/>`),
 };
 
-export const illus = Object.fromEntries(Object.values(products).map((p) => [p.id, ART[p.cat]()]));
+for (const [k, v] of Object.entries({ ...artA, ...artB })) if (!ART[k]) ART[k] = () => v;
+export const illus = Object.fromEntries(Object.values(products).filter((p) => ART[p.cat]).map((p) => [p.id, ART[p.cat]()]));

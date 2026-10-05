@@ -1,4 +1,5 @@
 import { products } from "./products.mjs";
+import { illus } from "./illus.mjs";
 export const esc = (s = "") => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 const T = {
@@ -13,8 +14,9 @@ export function pick(id, role, skip, lang = "en") {
   const p = lang === "es" && base.es ? { ...base, ...base.es } : base;
   const t = T[lang];
   const alt = `${t.ill}: ${p.name}`;
-  return `<li class="pick has-img">
-<figure class="pick-img"><img src="/assets/illus/${id}.svg" alt="${esc(alt)}" width="240" height="180" loading="lazy" decoding="async"><figcaption>${t.ill}</figcaption></figure>
+  const fig = illus[id] ? `<figure class="pick-img"><img src="/assets/illus/${id}.svg" alt="${esc(alt)}" width="240" height="180" loading="lazy" decoding="async"><figcaption>${t.ill}</figcaption></figure>` : "";
+  return `<li class="pick${fig ? " has-img" : ""}">
+${fig}
 <div><p class="role">${esc(role || p.best)}</p><h3>${esc(p.name)}</h3></div>
 <p class="why">${esc(p.how)}</p>
 <ul class="specs">${p.specs.map((s) => `<li>${esc(s)}</li>`).join("")}${p.year ? `<li>${t.year} ${p.year}</li>` : ""}</ul>

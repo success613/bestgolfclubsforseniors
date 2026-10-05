@@ -375,6 +375,376 @@
       "permanent": false
     },
     {
+      "source": "/go/a-quantum-max-os-irons",
+      "destination": "https://www.amazon.com/s?k=Callaway+Quantum+Max+OS+irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-quantum-max-os-irons/",
+      "destination": "https://www.amazon.com/s?k=Callaway+Quantum+Max+OS+irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-king-max-irons",
+      "destination": "https://www.amazon.com/s?k=Cobra+King+Max+irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-king-max-irons/",
+      "destination": "https://www.amazon.com/s?k=Cobra+King+Max+irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-srixon-zxir-irons",
+      "destination": "https://www.amazon.com/s?k=Srixon+ZXiR+irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-srixon-zxir-irons/",
+      "destination": "https://www.amazon.com/s?k=Srixon+ZXiR+irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-jpx925-hm-hl",
+      "destination": "https://www.amazon.com/s?k=Mizuno+JPX925+Hot+Metal+HL+irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-jpx925-hm-hl/",
+      "destination": "https://www.amazon.com/s?k=Mizuno+JPX925+Hot+Metal+HL+irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-warbird",
+      "destination": "https://www.amazon.com/s?k=Callaway+Warbird+golf+balls&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-warbird/",
+      "destination": "https://www.amazon.com/s?k=Callaway+Warbird+golf+balls&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-duo-soft",
+      "destination": "https://www.amazon.com/s?k=Wilson+Duo+Soft+golf+balls+2025&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-duo-soft/",
+      "destination": "https://www.amazon.com/s?k=Wilson+Duo+Soft+golf+balls+2025&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-velocity",
+      "destination": "https://www.amazon.com/s?k=Titleist+Velocity+golf+balls+2026&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-velocity/",
+      "destination": "https://www.amazon.com/s?k=Titleist+Velocity+golf+balls+2026&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-nitron-swivel",
+      "destination": "https://www.amazon.com/s?k=Bag+Boy+Nitron+Swivel+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-nitron-swivel/",
+      "destination": "https://www.amazon.com/s?k=Bag+Boy+Nitron+Swivel+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-bagboy-nitron",
+      "destination": "https://www.amazon.com/s?k=Bag+Boy+Nitron+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-bagboy-nitron/",
+      "destination": "https://www.amazon.com/s?k=Bag+Boy+Nitron+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-clicgear-45",
+      "destination": "https://www.amazon.com/s?k=Clicgear+Model+4.5+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-clicgear-45/",
+      "destination": "https://www.amazon.com/s?k=Clicgear+Model+4.5+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-clicgear-8plus",
+      "destination": "https://www.amazon.com/s?k=Clicgear+Model+8.0%2B+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-clicgear-8plus/",
+      "destination": "https://www.amazon.com/s?k=Clicgear+Model+8.0%2B+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-speed-cart-x",
+      "destination": "https://www.amazon.com/s?k=Sun+Mountain+Speed+Cart+X+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-speed-cart-x/",
+      "destination": "https://www.amazon.com/s?k=Sun+Mountain+Speed+Cart+X+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-sm-px4",
+      "destination": "https://www.amazon.com/s?k=Sun+Mountain+Pathfinder+PX4+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-sm-px4/",
+      "destination": "https://www.amazon.com/s?k=Sun+Mountain+Pathfinder+PX4+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-cybercart-push",
+      "destination": "https://www.amazon.com/s?k=Alphard+Cybercart+Push+plus+golf+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-cybercart-push/",
+      "destination": "https://www.amazon.com/s?k=Alphard+Cybercart+Push+plus+golf+push+cart&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-callaway-cb12",
+      "destination": "https://www.amazon.com/s?k=Callaway+CB12+wedge&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-callaway-cb12/",
+      "destination": "https://www.amazon.com/s?k=Callaway+CB12+wedge&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-hl-max-d-wedge",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Hot+Launch+Max+D+wedge&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-hl-max-d-wedge/",
+      "destination": "https://www.amazon.com/s?k=Tour+Edge+Hot+Launch+Max+D+wedge&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-ping-chipr",
+      "destination": "https://www.amazon.com/s?k=PING+ChipR+chipper&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/a-ping-chipr/",
+      "destination": "https://www.amazon.com/s?k=PING+ChipR+chipper&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-g440-k",
+      "destination": "https://www.amazon.com/s?k=PING+G440+K+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-g440-k/",
+      "destination": "https://www.amazon.com/s?k=PING+G440+K+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-qi4d-max",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Qi4D+Max+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-qi4d-max/",
+      "destination": "https://www.amazon.com/s?k=TaylorMade+Qi4D+Max+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-gt1-driver",
+      "destination": "https://www.amazon.com/s?k=Titleist+GT1+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-gt1-driver/",
+      "destination": "https://www.amazon.com/s?k=Titleist+GT1+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-quantum-max-d",
+      "destination": "https://www.amazon.com/s?k=Callaway+Quantum+Max+D+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-quantum-max-d/",
+      "destination": "https://www.amazon.com/s?k=Callaway+Quantum+Max+D+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-g440-max",
+      "destination": "https://www.amazon.com/s?k=PING+G440+Max+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-g440-max/",
+      "destination": "https://www.amazon.com/s?k=PING+G440+Max+Driver&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-king-tec-x-ol",
+      "destination": "https://www.amazon.com/s?k=Cobra+King+Tec-X+One+Length+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-king-tec-x-ol/",
+      "destination": "https://www.amazon.com/s?k=Cobra+King+Tec-X+One+Length+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-darkspeed-ol",
+      "destination": "https://www.amazon.com/s?k=Cobra+Darkspeed+One+Length+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-darkspeed-ol/",
+      "destination": "https://www.amazon.com/s?k=Cobra+Darkspeed+One+Length+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-majek-sl-hybrids",
+      "destination": "https://www.amazon.com/s?k=Majek+senior+single+length+hybrid+set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-majek-sl-hybrids/",
+      "destination": "https://www.amazon.com/s?k=Majek+senior+single+length+hybrid+set&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-king-tec-ol-hybrid",
+      "destination": "https://www.amazon.com/s?k=Cobra+King+Tec+One+Length+Hybrid&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-king-tec-ol-hybrid/",
+      "destination": "https://www.amazon.com/s?k=Cobra+King+Tec+One+Length+Hybrid&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-avoda-origin-sl",
+      "destination": "https://www.amazon.com/s?k=Avoda+Origin+Same+Length+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-avoda-origin-sl/",
+      "destination": "https://www.amazon.com/s?k=Avoda+Origin+Same+Length+Irons&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-quantum-max-fw",
+      "destination": "https://www.amazon.com/s?k=Callaway+Quantum+Max+Fairway+Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-quantum-max-fw/",
+      "destination": "https://www.amazon.com/s?k=Callaway+Quantum+Max+Fairway+Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-gt1-fw",
+      "destination": "https://www.amazon.com/s?k=Titleist+GT1+Fairway+Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-gt1-fw/",
+      "destination": "https://www.amazon.com/s?k=Titleist+GT1+Fairway+Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-optm-max-fw",
+      "destination": "https://www.amazon.com/s?k=Cobra+OPTM+Max+Fairway+Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-optm-max-fw/",
+      "destination": "https://www.amazon.com/s?k=Cobra+OPTM+Max+Fairway+Wood&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-clubglider-meridian",
+      "destination": "https://www.amazon.com/s?k=Sun+Mountain+ClubGlider+Meridian+Travel+Bag&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-clubglider-meridian/",
+      "destination": "https://www.amazon.com/s?k=Sun+Mountain+ClubGlider+Meridian+Travel+Bag&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-bagboy-t10",
+      "destination": "https://www.amazon.com/s?k=Bag+Boy+T-10+Hard+Top+Travel+Cover&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-bagboy-t10/",
+      "destination": "https://www.amazon.com/s?k=Bag+Boy+T-10+Hard+Top+Travel+Cover&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-caddydaddy-first-class",
+      "destination": "https://www.amazon.com/s?k=CaddyDaddy+First+Class+Golf+Travel+Bag&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-caddydaddy-first-class/",
+      "destination": "https://www.amazon.com/s?k=CaddyDaddy+First+Class+Golf+Travel+Bag&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-clubglove-tour-traveler-sb",
+      "destination": "https://www.amazon.com/s?k=Club+Glove+Tour+Traveler+SB+Travel+Bag&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-clubglove-tour-traveler-sb/",
+      "destination": "https://www.amazon.com/s?k=Club+Glove+Tour+Traveler+SB+Travel+Bag&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-ogio-renegade",
+      "destination": "https://www.amazon.com/s?k=OGIO+Renegade+Golf+Travel+Cover&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-ogio-renegade/",
+      "destination": "https://www.amazon.com/s?k=OGIO+Renegade+Golf+Travel+Cover&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-vault-hard-case",
+      "destination": "https://www.amazon.com/s?k=Golf+Travel+Bags+Vault+hard+case+golf+travel+bag&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-vault-hard-case/",
+      "destination": "https://www.amazon.com/s?k=Golf+Travel+Bags+Vault+hard+case+golf+travel+bag&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-clubglove-stiff-arm",
+      "destination": "https://www.amazon.com/s?k=Club+Glove+Stiff+Arm&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/b-clubglove-stiff-arm/",
+      "destination": "https://www.amazon.com/s?k=Club+Glove+Stiff+Arm&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
       "source": "/2017/:rest(.*)",
       "destination": "/",
       "permanent": true

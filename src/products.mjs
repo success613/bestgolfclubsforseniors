@@ -1,3 +1,5 @@
+import { extra as extraA } from "./products-posts-a.mjs";
+import { extra as extraB } from "./products-posts-b.mjs";
 // Product facts verified on maker pages and independent reviews (Golf Digest, MyGolfSpy,
 // GOLF.com, GolfWRX, Today's Golfer, golfalot), October 4, 2026. See research/products.md.
 // `list` is the maker's list price (US$), shown as such. We never show Amazon prices
@@ -250,6 +252,7 @@ const list = [
     src: "https://www.ballcaddie.com/blog/titleist-trufeel-review" }),
 ];
 
+list.push(...extraA, ...extraB);
 export const products = Object.fromEntries(list.map((p) => [p.id, p]));
 export const byCat = (cat) => list.filter((p) => p.cat === cat).map((p) => p.id);
 export const redirects = list.map((p) => ({ source: `/go/${p.go}`, destination: p.url, permanent: false }))

@@ -1,0 +1,24 @@
+name: Scheduled publish
+# Rebuilds the site on publishing days so posts with a `publish` date of today go live.
+on:
+  schedule:
+    - cron: "5 11 * * 1,4" # Mon and Thu, 06:05 Bogotá
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Trigger a Vercel rebuild if a post is due today
+        run: |
+          TODAY=$(TZ=America/Bogota date +%F)
+          if grep -rqs "publish: \"$TODAY\"" src/posts/ || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            git config user.name "success613"
+            git config user.email "329145649+success613@users.noreply.github.com"
+            git commit --allow-empty -m "Scheduled publish $TODAY"
+            git push
+          else
+            echo "No post scheduled for $TODAY"
+          fi

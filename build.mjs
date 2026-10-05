@@ -62,7 +62,7 @@ function footer(p) {
 <div><h2>${p.lang === "es" ? "Datos y herramientas" : "Data and tools"}</h2><ul>
 <li><a href="/club-finder/">Club finder</a></li><li><a href="/es/buscador-de-palos/" hreflang="es">Buscador de palos (español)</a></li><li><a href="/senior-flex-vs-regular-flex/">Senior vs regular flex</a></li><li><a href="/driving-distance-by-age/">Driving distance by age</a></li><li><a href="/es/" hreflang="es">Guía en español</a></li></ul></div>
 <div><h2>About</h2><ul>
-<li><a href="/about/">About Alejandro</a></li><li><a href="/how-we-pick/">How we pick</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/contact/">Contact</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
+<li><a href="/blog/">All buying guides</a></li><li><a href="/about/">About Alejandro</a></li><li><a href="/how-we-pick/">How we pick</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/contact/">Contact</a></li><li><a href="/sitemap.xml">Sitemap</a></li></ul></div>
 </div></footer>`;
 }
 
@@ -77,7 +77,7 @@ function rail(p) {
   if (p.noRail) return "";
   const u = UI[p.lang];
   const pk = p.rail && products[p.rail];
-  const pick = pk ? `<div class="rail-box rail-pick"><h2>${p.lang === "es" ? "Nuestra elección" : "Our top pick"}</h2><img src="/assets/illus/${pk.id}.svg" alt="" width="240" height="180"><strong>${esc(pk.name)}</strong><p>${esc(pk.best)}.</p><a class="btn" href="/go/${pk.go}" rel="sponsored nofollow" data-product="${pk.id}">${p.lang === "es" ? "Ver precio en Amazon" : "Check price at Amazon"}</a></div>` : "";
+  const pick = pk ? `<div class="rail-box rail-pick"><h2>${p.lang === "es" ? "Nuestra elección" : "Our top pick"}</h2>${illus[pk.id] ? `<img src="/assets/illus/${pk.id}.svg" alt="" width="240" height="180">` : ""}<strong>${esc(pk.name)}</strong><p>${esc(pk.best)}.</p><a class="btn" href="/go/${pk.go}" rel="sponsored nofollow" data-product="${pk.id}">${p.lang === "es" ? "Ver precio en Amazon" : "Check price at Amazon"}</a></div>` : "";
   return `<aside class="rail" aria-label="${p.lang === "es" ? "Ayuda rápida" : "Quick help"}">${pick}
 <div class="rail-box"><h2>${u.railFind[0]}</h2><p>${u.railFind[1]}</p><a class="btn secondary" href="${url(u.cta[0])}">${u.railFind[2]}</a></div>
 <div class="rail-box"><h2>${u.railFit[0]}</h2><p>${u.railFit[1]}</p><a href="/senior-flex-vs-regular-flex/">${u.railFit[2]}</a></div>
