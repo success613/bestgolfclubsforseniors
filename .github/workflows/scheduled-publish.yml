@@ -1,5 +1,6 @@
 name: Scheduled publish
-# Rebuilds the site on publishing days so posts with a `publish` date of today go live.
+# Rebuilds the site on publishing days so posts with a `publish` date of today go live,
+# then tells IndexNow (Bing and others) about the new URLs.
 on:
   schedule:
     - cron: "5 11 * * 1,4" # Mon and Thu, 06:05 Bogotá
@@ -9,12 +10,22 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    env:
+      SITE_HOST: bestgolfclubsforseniors.com
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
       - name: Trigger a Vercel rebuild if a post is due today
+        id: pub
         run: |
           TODAY=$(TZ=America/Bogota date +%F)
-          if grep -rqs "publish: \"$TODAY\"" src/posts/ || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+          git fetch origin main && git reset --hard origin/main
+          if git log -1 --pretty=%s | grep -q "Scheduled publish $TODAY"; then
+            echo "Already published today"
+          elif grep -rqs "publish: \"$TODAY\"" src/posts/ || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             git config user.name "success613"
             git config user.email "329145649+success613@users.noreply.github.com"
             git commit --allow-empty -m "Scheduled publish $TODAY"
@@ -22,3 +33,5 @@ jobs:
           else
             echo "No post scheduled for $TODAY"
           fi
+      - name: Submit today's posts to IndexNow
+        run: node scripts/indexnow.mjs --date ${{ steps.pub.outputs.today }}

@@ -169,6 +169,7 @@ const sm = pages.filter((p) => !p.noindex).map((p) => {
   return `<url><loc>${abs(p.slug)}</loc><lastmod>${p.modified || TODAY}</lastmod>${alt}</url>`;
 }).join("");
 writeFileSync(join(OUT, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${sm}</urlset>`);
+{ const { INDEXNOW_KEY } = await import("./src/indexnow.mjs"); writeFileSync(join(OUT, INDEXNOW_KEY + ".txt"), INDEXNOW_KEY); }
 writeFileSync(join(OUT, "robots.txt"), `User-agent: *\nAllow: /\nDisallow: /go/\n\nSitemap: ${SITE}/sitemap.xml\n`);
 
 const llm = [`# ${NAME}`, "", "> Honest buying guides for golfers over 55 with slower swing speeds: drivers, irons, hybrids and fairway woods, complete sets, putters and golf balls, plus a club finder that turns driver distance into starting specs (flex, loft, shaft weight, bag set-up). English, with a Spanish section at /es/.", "", "Specs come from maker pages and independent testing (Golf Digest, MyGolfSpy, GOLF.com, GolfWRX). Fitting guidance cites TrackMan, Arccos, True Spec Golf and USGA data. Maker list prices as of October 2026.", "", "## Tools", `- [Club finder](${abs("club-finder")}): driver distance or swing speed → flex, loft, shaft weight, set-up.`, `- [Buscador de palos (español)](${abs("es/buscador-de-palos")})`, "", "## Guides"]
