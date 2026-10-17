@@ -177,25 +177,91 @@ ${picks([
   sources: [S.ball1, S.ball2, ...src(["srixon-soft-feel", "e6-soft", "callaway-supersoft", "titleist-trufeel"])],
 }),
 A({
-  slug: "best-putters-for-seniors", crumb: "Putters", rail: "hb-soft-2-retreve",
+  slug: "best-putters-for-seniors", crumb: "Putters", rail: "ai-dual-jailbird-mini",
   h1: "Best Putters for Seniors (2026)",
-  metaTitle: "Best Putters for Seniors (2026): No-Bend Retrieval and Counterbalanced Picks",
-  description: "The best putters for seniors in 2026: the Cleveland HB Soft 2 Retreve that picks the ball out of the cup, and the stable TaylorMade Spider ZT Max Counterbalance, plus what the anchoring rule allows.",
-  answer: `<p>For sore knees or a stiff back, the ${buyLink("hb-soft-2-retreve")} lets you lift the ball out of the hole without bending. For shaky hands and off-center putts, a high-MOI counterbalanced mallet like the ${buyLink("spider-zt-max-cb")} is the most stable choice.</p>`,
+  modified: "2026-10-17",
+  metaTitle: "Best Putters for Seniors (2026): 7 Picks by Need",
+  description: "The best putters for seniors in 2026, by need: bad knees, shaky hands, budget, arm-lock, straight or arcing stroke. Plus length, grips and fitting advice.",
+  answer: `<p>For most senior golfers, our top pick is the ${buyLink("ai-dual-jailbird-mini")} ($349.99): a stable, face-balanced mallet with a soft insert, sold in 33–35 inches for either hand, and a Gold winner on Golf Digest's 2026 Hot List. If bending down hurts, get the ${buyLink("hb-soft-2-retreve")}, which picks the ball out of the cup. If your hands get shaky over short putts, the ${buyLink("lab-df3")} is built so the face stays square on its own.</p>`,
   body: `
+<p>You use your putter on every hole, and it is the one club where swing speed doesn't matter. What changes with age is the rest: knees and backs that don't like bending, hands that shake or ache, eyes that find it harder to aim, and a posture that gets taller. The picks below are sorted by those problems, not by brand. Specs come from makers and independent reviews; we research, we don't hand-test (<a href="/how-we-pick/">how we pick</a>).</p>
 <h2>Our picks</h2>
 ${picks([
+  ["ai-dual-jailbird-mini", "Best overall"],
   ["hb-soft-2-retreve", "Best for bad knees and backs"],
-  ["spider-zt-max-cb", "Most stable stroke"],
+  ["lab-df3", "Best for shaky hands and the yips"],
+  ["spider-zt-max-cb", "Best counterbalanced putter", "you like a light, responsive feel; counterbalanced putters feel heavy, so demo one first. At $500 it's also among the priciest here."],
+  ["wilson-infinite-zt-606", "Best budget putter"],
+  ["ping-scottsdale-prime-tyne-4", "Best for an arcing stroke"],
+  ["bettinardi-bb28-armlock", "Best arm-lock putter"],
 ])}
-<h2>What to look for</h2>
-<ul><li><strong>Mallet heads:</strong> high-MOI mallets twist less on mis-hits.</li><li><strong>Counterbalancing:</strong> extra weight in the head and grip end steadies the stroke for many golfers. Demo one first; it doesn't suit everyone.</li><li><strong>Bigger grips:</strong> oversize putter grips quiet the hands. Golf Pride describes the benefit for arthritis as comfort, not a performance promise.</li><li><strong>Length:</strong> long putters are still legal if you don't anchor them against your body; arm-lock putting is also legal.</li></ul>
+<p><strong>Straight stroke or arc?</strong> If your putter moves straight back and straight through, choose a face-balanced or zero-torque mallet: the Ai-Dual Jailbird Mini, DF3, Spider ZT Max or Wilson 606. If the face opens on the way back and closes through the ball, choose toe hang: the PING Prime Tyne 4.</p>
+<h2>Compare all seven</h2>
+${table(["Putter", "Best for", "Head and balance", "Lengths", "Counter&shy;balanced", "Left-hand", "Maker list price"], [
+  ["Odyssey Ai-Dual Jailbird Mini", "Best overall", "Mallet, face-balanced, 360 g", "33–35 in (38 in Cruiser models)", "Cruiser models only", "Yes", "$349.99"],
+  ["Cleveland HB Soft 2 Retreve", "Bad knees, back", "Mallet with ball-pickup cut-out", "Not confirmed", "No", "Not confirmed", "$149.99"],
+  ["L.A.B. Golf DF3", "Shaky hands, yips", "Lie Angle Balanced mallet", "34–35 in stock; custom range", "No", "Yes", "$449 ($559 custom)"],
+  ["TaylorMade Spider ZT Max CB", "Most stable", "Zero-torque high-MOI mallet", "36–38 in", "Yes", "Not confirmed", "$500"],
+  ["Wilson Infinite ZT The 606", "Budget", "Zero-torque mallet, 385 g", "34–35 in", "No", "Yes", "$199.99"],
+  ["PING Scottsdale Prime Tyne 4", "Arcing stroke", "Mallet, strong toe hang, 365 g", "Not confirmed", "No", "Yes", "$270 at launch"],
+  ["Bettinardi BB-28 Armlock", "Arm-lock", "Blade, 1/8 toe hang, 400 g", "40–42 in", "Arm-lock design", "No (where we checked)", "$500"],
+])}
+<p>Prices are maker list prices at launch; the Ai-Dual Jailbird Mini was $249.99 on Callaway's site in October 2026.</p>
+<h2>How to choose a putter as a senior</h2>
+<h3>Mallet or blade: start with a mallet</h3>
+<p>A mallet spreads weight toward the heel, toe and back of the head. That raises MOI (moment of inertia), which putter designer Guerin Rife describes to GOLF.com as the head's resistance to twisting on off-center hits. Toe strikes open the face and come up short; higher MOI shrinks that miss. Blades ask for consistent center contact, so a mallet is the safer default.</p>
+<h3>Match the balance to your stroke</h3>
+<p>Balance the shaft on one finger near the head. If the face points to the sky, the putter is face-balanced; if the toe drops, it has toe hang. Golf Monthly notes most mallets are face-balanced and most blades have toe hang. The usual starting rule: face-balanced for a straight-back, straight-through stroke, toe hang for an arc. PING labels each Scottsdale model straight, slight arc or strong arc.</p>
+<p>Zero-torque putters (Wilson ZT, Spider ZT Max, L.A.B.'s Lie Angle Balanced heads) go further: the face resists twisting at all. MyGolfSpy says these suit straight strokes better than strong arcs. Treat any stroke match as a starting point and test.</p>
+<h3>Counterbalanced: worth trying if your hands are shaky</h3>
+<p>Counterbalancing adds weight at the grip end, usually with a longer grip, so the balance point moves toward your hands. Golf Digest says the Spider ZT Max counterbalance build moves the balance point toward the grip to quiet the hands and forearms, and Golf Monthly suggests the counterbalanced PING Scottsdale TEC Ally Blue Onset (37.75 inches, 370 g head) for golfers who get handsy or have shaky hands. Plugged In Golf notes results vary, so demo one first.</p>
+<h3>Length: measure your posture, not your height</h3>
+<p>Most stock putters come in 33–35 inches. PGA TOUR Superstore's chart starts at 33.5 inches for golfers 5'7"–5'9" and 34 inches for 5'10"–6'0", but it assumes a traditional setup with your eyes over the ball. Their better test: take your normal stance, knees slightly flexed and bent from the hips, with your eyes directly over or just inside the ball, and measure from the ground to the top of your hands.</p>
+<p>That matters for seniors. If bending over has become harder, you probably stand taller than you did at 50, and a taller posture needs a longer putter to keep the putter flat on the ground. Counterbalanced models (36–38 inches) already run long. If even that is uncomfortable, look at an arm-lock (40–42 inches) or a long putter such as the 46-inch Spider ZT Max Long ($550). You can find your other club specs with the <a href="/club-finder/">club finder</a>.</p>
+<h3>Oversize grips and arthritis: comfort, not performance</h3>
+<p>Golf Pride says an oversize grip may feel more comfortable or controllable for golfers with arthritis, and can help some players hold the club without squeezing harder. It is careful to call this comfort, "not performance promises," and says no size helps everyone. If your fingers ache, a thicker grip is a cheap thing to try. The Wilson and Ai-Dual already ship with midsize grips.</p>
+<h3>Alignment aids for weaker eyesight</h3>
+<p>If lining up is harder than it used to be, choose a head with a bold, simple sightline. Odyssey's Half-Ball versions put a ball-sized graphic behind the face so you can frame the ball, and Wilson's 606 uses two rear lines plus a dot on the topline. A bright ball helps too; our <a href="/best-golf-balls-for-seniors/">golf balls for seniors</a> guide covers colors.</p>
+<h3>Putter fitting: cheap compared with a $450 mistake</h3>
+<p>PGA TOUR Superstore runs 45–60 minute STUDIO putter fittings by appointment using SAM PuttLab stroke analysis; call your store for the price. Club Champion's putter fitting was listed at $66 on a holiday promotion in Golf Digest's listing; regular prices vary by location. If you can't get fitted, buy where you can try the putter on a practice green.</p>
+${note("Long and arm-lock putters are legal.", "Since January 1, 2016, the Rules of Golf ban <em>anchoring</em> the club against your body during the stroke, not long putters themselves. A long or belly putter is fine if you don't hold it against your chest or stomach. Arm-lock putting is legal: as GOLF.com explains, the USGA allows the club or forearm to touch your body as long as it isn't held against it.")}
+<h2>Mistakes to avoid</h2>
+<ul><li><strong>Wrong length.</strong> If the toe or heel lifts at address, your setup is fighting the club.</li><li><strong>Ignoring the putter in a set.</strong> Most box sets include a basic mallet. If you're buying one of our <a href="/best-golf-club-sets-for-seniors/">golf club sets for seniors</a>, try that putter first before you spend $350 on another.</li></ul>
+<p>Shopping for a senior woman? The Ai-Dual comes in 33 inches, the Spider ZT Max standard head fits 33–35 inches, and L.A.B. builds custom lengths; see our guide to <a href="/best-golf-clubs-for-senior-women/">golf clubs for senior women</a> for the rest of the bag.</p>
 `,
   faq: [
-    ["What putter is best for seniors?", "A forgiving mallet. The Cleveland HB Soft 2 Retreve adds a ball-retrieval cut-out so you don't have to bend; the TaylorMade Spider ZT Max Counterbalance is very stable."],
-    ["Are long putters legal for seniors?", "Yes. The 2016 anchoring rule bans anchoring the club against your body, not long putters themselves. Arm-lock putting is legal."],
+    ["What is the best putter for seniors?", "For most seniors, a forgiving face-balanced mallet such as the Odyssey Ai-Dual Jailbird Mini ($349.99). If bending down hurts, the Cleveland HB Soft 2 Retreve picks the ball out of the cup. For shaky hands, the L.A.B. Golf DF3 resists face twisting on its own."],
+    ["What is the best putter for senior men?", "The same rules apply to men and women: choose a stable mallet in the right length. Men who stand tall at address may need a counterbalanced 36–38 inch model like the Spider ZT Max Counterbalance, or an arm-lock putter."],
+    ["Are mallet putters better for seniors?", "For most, yes. Mallets have higher MOI, so they twist less on off-center hits, which keeps mis-hits closer to the hole. Blades reward consistent center contact."],
+    ["Are long putters legal?", "Yes. The anchoring rule that took effect January 1, 2016 bans holding the club against your body during the stroke, not long putters. Arm-lock putting is legal."],
+    ["Should seniors use a counterbalanced putter?", "If your hands get shaky or handsy, it's worth trying. Extra weight at the grip end moves the balance point toward your hands, which many golfers find steadier. Results vary, so demo one before buying."],
+    ["What length putter should a senior use?", "Take your normal stance with your eyes over or just inside the ball and measure from the ground to the top of your hands. Stock putters are 33–35 inches. If you now stand taller than you used to, you may need 35–38 inches or an arm-lock length."],
+    ["Do oversize grips help arthritis?", "They may make putting more comfortable. Golf Pride says golfers with arthritis use oversize grips primarily for comfort, not performance, and that no grip size helps everyone. A grip swap is a cheap thing to try before buying a new putter."],
+    ["Is a zero-torque putter good for seniors?", "It can be, especially with a straight-back, straight-through stroke. Zero-torque heads resist twisting, which helps a shaky stroke. MyGolfSpy notes they suit straight strokes better than strong arcs, and the Wilson Infinite ZT brings the design down to $199.99."],
   ],
-  sources: [S.anchor, S.grip, ...src(["hb-soft-2-retreve", "spider-zt-max-cb"])],
+  sources: [
+    ["Golf Digest Hot List 2026: Softest-feeling mallet putters", "https://www.golfdigest.com/story/hot-list-2026--the-softest-feeling-mallet-putters"],
+    ["GolfWRX: Odyssey Ai-Dual and Square 2 Square putters (2026 prices)", "https://golfwrx.com/772062/callaway-unveils-new-odyssey-line-of-ai-dual-square-2-square-putters/"],
+    ["Callaway: Odyssey Ai-Dual Jailbird Mini specs", "https://www.callawaygolf.com/product/putters-2026-ai-dual-jailbird-mini-db"],
+    ["Cleveland Golf: HB Soft 2 Retreve", "https://us.dunlopsports.com/cleveland-golf/clubs/putters/hb-soft-2/hb-soft-2-putter-retreve/MHBSOFT2-R.html"],
+    ["MyGolfSpy: L.A.B. Golf DF3 first look", "https://mygolfspy.com/news-opinion/first-look/l-a-b-golf-directed-force-3-putter/"],
+    ["PGA TOUR Superstore: L.A.B. DF3 specs", "https://www.pgatoursuperstore.com/df3-putter/1162947002.html"],
+    ["Golf Digest: TaylorMade Spider ZT Max putters (2026)", "https://www.golfdigest.com/story/taylormade-spider-tour-torched-zt-max-putters-preview"],
+    ["MyGolfSpy: Wilson Infinite ZT putters", "https://mygolfspy.com/news-opinion/wilson-goes-zero-torque-and-the-prices-are-eye-opening/"],
+    ["Golfalot: Wilson Infinite ZT putters review", "https://golfalot.com/equipment-review/wilson-infinite-zt-putters-review"],
+    ["MyGolfSpy: PING's Scottsdale putter line", "https://mygolfspy.com/news-opinion/exploring-pings-new-scottsdale-putter-line/"],
+    ["Golfalot: PING Scottsdale B63 review (line specs)", "https://golfalot.com/equipment-review/ping-scottsdale-b63-putter-review"],
+    ["Golf Digest: Bettinardi BB Series putters for 2026", "https://www.golfdigest.com/story/bettinardi-bb-series-putters-for-2026"],
+    ["Golf Discount: Bettinardi BB-28 Armlock (2026) specs", "https://www.golfdiscount.com/collections/bettinardi/products/bettinardi-bb-28-armlock-putter-2026"],
+    ["GOLF.com: Putter MOI explained by Guerin Rife", "https://golf.com/gear/putters/putterhead-moi-what-is-it-guerin-rife/"],
+    ["Golf Monthly: Toe hang or face-balanced putter?", "https://golfmonthly.com/features/the-game/toe-hang-or-face-balanced-putter-174445"],
+    ["Golf Monthly: Standard vs counterbalance PING Scottsdale TEC", "https://www.golfmonthly.com/features/standard-vs-counterbalance-mallets-which-ping-scottsdale-tec-putter-do-you-need"],
+    ["Plugged In Golf: What is counterweighting?", "https://pluggedingolf.com/what-is-counter-weighting/"],
+    ["PGA TOUR Superstore: How to choose the right putter length", "https://www.pgatoursuperstore.com/learning-center/how-to-choose-the-right-putter-length.html"],
+    ["Golf Digest: Club Champion fitting prices", "https://www.golfdigest.com/products/club-champion-clubfitting"],
+    S.grip,
+    S.anchor,
+  ],
 }),
 A({
   slug: "best-golf-clubs-for-senior-women", crumb: "Senior women", rail: "ping-g-le4-driver",

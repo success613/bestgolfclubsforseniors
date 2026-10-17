@@ -335,6 +335,56 @@
       "permanent": false
     },
     {
+      "source": "/go/ai-dual-jailbird-mini",
+      "destination": "https://www.amazon.com/s?k=Odyssey+Ai-Dual+Jailbird+Mini+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/ai-dual-jailbird-mini/",
+      "destination": "https://www.amazon.com/s?k=Odyssey+Ai-Dual+Jailbird+Mini+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/lab-df3",
+      "destination": "https://www.amazon.com/s?k=L.A.B.+Golf+DF3+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/lab-df3/",
+      "destination": "https://www.amazon.com/s?k=L.A.B.+Golf+DF3+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/ping-scottsdale-prime-tyne-4",
+      "destination": "https://www.amazon.com/s?k=PING+Scottsdale+Prime+Tyne+4+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/ping-scottsdale-prime-tyne-4/",
+      "destination": "https://www.amazon.com/s?k=PING+Scottsdale+Prime+Tyne+4+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/wilson-infinite-zt-606",
+      "destination": "https://www.amazon.com/s?k=Wilson+Infinite+ZT+The+606+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/wilson-infinite-zt-606/",
+      "destination": "https://www.amazon.com/s?k=Wilson+Infinite+ZT+The+606+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/bettinardi-bb28-armlock",
+      "destination": "https://www.amazon.com/s?k=Bettinardi+BB-28+Armlock+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
+      "source": "/go/bettinardi-bb28-armlock/",
+      "destination": "https://www.amazon.com/s?k=Bettinardi+BB-28+Armlock+Putter&tag=bestgolfsenior-20",
+      "permanent": false
+    },
+    {
       "source": "/go/e6-soft",
       "destination": "https://www.amazon.com/s?k=Bridgestone+e6+Soft+Golf+Balls&tag=bestgolfsenior-20",
       "permanent": false

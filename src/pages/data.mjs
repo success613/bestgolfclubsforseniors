@@ -3,11 +3,14 @@ import { table, note } from "../components.mjs";
 export const data = [
 {
   slug: "senior-flex-vs-regular-flex", lang: "en", type: "article", crumb: "Senior vs regular flex",
-  h1: "Senior Flex vs Regular Flex: Which Should You Play?",
-  metaTitle: "Senior Flex vs Regular Flex: Swing Speed Chart and How to Choose",
-  description: "Senior (A) flex vs regular flex explained: the swing speed ranges, why flex letters differ between brands, what testing shows about flex and shaft weight, and how seniors should choose.",
+  h1: "Senior Flex vs Regular Flex: What Senior (A) Flex Means and Who Should Play It",
+  metaTitle: "Senior Flex Golf Clubs: What A Flex Means vs Regular Flex",
+  description: "What senior flex (A flex) golf clubs are, the swing speeds they suit vs regular flex, why brands differ, and signs your shaft is too stiff or too soft.",
+  modified: "2026-10-17",
   answer: `<p>As a starting point, play <strong>Senior (A) flex if your driver speed is about 72–83 mph</strong> and <strong>Regular at about 84–96 mph</strong> (True Spec Golf's chart). But flex letters aren't standardized between brands, and testing shows speed alone doesn't reliably predict the best shaft, so try both if you can.</p>`,
   body: `
+<h2>What is senior flex?</h2>
+<p>Senior flex is a golf shaft that bends more than a Regular shaft during the swing. It's marked <strong>A</strong> (sometimes "Senior", "Lite" or "M" on older clubs) and sits between Ladies (L) and Regular (R). Senior-flex shafts are usually lighter too, often 40–55 g in a driver. The softer, lighter build helps a slower swing launch the ball higher and carry farther. The name is about swing speed, not age: a 70-year-old who swings 95 mph should play Regular, and a 45-year-old who swings 78 mph may be better off in senior flex.</p>
 <h2>Flex by swing speed</h2>
 <p>Two widely published charts, which disagree a little:</p>
 ${table(["Flex", "True Spec Golf (via GOLF.com)", "TGW"], [["Ladies (L)", "Under 72 mph", "Under 60 mph"], ["A / Senior", "72–83 mph", "A (Amateur) 60–75; Senior 75–85"], ["Regular (R)", "84–96 mph", "85–95 mph"], ["Stiff (S)", "97–104 mph", "95–110 mph"]])}
@@ -27,6 +30,9 @@ ${note("Bottom line:", "use the chart to pick what to try, not what to buy blind
 <ul><li>Ballooning, high-spinning drives.</li><li>Hooks and inconsistent direction when you swing harder.</li></ul>
 `,
   faq: [
+    ["What is senior flex in golf clubs?", "A shaft that bends more than Regular flex and is usually lighter, marked A or Senior. It's designed for slower swings, roughly 72–83 mph of driver speed, to help the ball launch higher."],
+    ["What does A flex mean on a golf shaft?", "A stands for senior (some brands say amateur) flex: softer than R (Regular), stiffer than L (Ladies)."],
+    ["Should a 70-year-old use senior flex?", "Only if their swing speed is in the senior range. Age doesn't decide flex; driver speed does. Many golfers over 65 swing in the 70s and 80s mph, which fits A flex."],
     ["What swing speed is senior flex for?", "About 72–83 mph of driver speed on True Spec Golf's chart. Other charts differ slightly, and brands don't share one standard."],
     ["Is senior flex the same as A flex?", "Usually yes. Most brands use A, Senior and sometimes Lite for the same flex between Ladies and Regular."],
     ["Will senior flex add distance?", "If your speed is in the senior range and your current shaft is too stiff, a softer, lighter shaft can launch higher and carry farther. Testing shows results vary by golfer."],
